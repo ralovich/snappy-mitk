@@ -13,6 +13,9 @@ icon: snap/local/mitk.png
 grade: stable # must be 'stable' to release into candidate/stable channels
 confinement: strict # use 'strict' once you have the right plugs and slots
 
+architectures:
+- amd64
+
 parts:
   desktop-qt5-mitk:
     source: https://github.com/ubuntu/snapcraft-desktop-helpers.git

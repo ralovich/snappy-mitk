@@ -9,14 +9,9 @@ case "$SNAP_ARCH" in
 	;;
 esac
 
-export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:$SNAP/usr/lib/MITK-2015.5.0-linux64:$SNAP/usr/lib/MITK-2015.5.0-linux64/plugins"
+
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:$SNAP/usr/lib/mitk:$SNAP/usr/lib/mitk/plugins"
 
 
-# set QML2 import path for Qt UI
-export QML2_IMPORT_PATH="$QML2_IMPORT_PATH:$SNAP/usr/lib/x86_64-linux-gnu/qt5/qml/"
 
-
-export QT_QPA_PLATFORM_PLUGIN_PATH=$QT_QPA_PLATFORM_PLUGIN_PATH:$SNAP/usr/lib/x86_64-linux-gnu/qt5/plugins
-
-
-exec $SNAP/usr/lib/MITK-2015.5.0-linux64/MitkWorkbench  "$@"
+exec $SNAP/usr/lib/mitk/MitkWorkbench  "$@"

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Name=MITK Workbench
+TryExec=/snap/bin/mitk-snap-wrapper.sh
+Exec=/snap/bin/mitk-snap-wrapper.sh
+Icon=/usr/share/icons/hicolor/48x48/apps/mitk.png
+Terminal=false
+Type=Application

@@ -1,0 +1,3 @@
+Known issue: Welcome screen does not show webpage. Heaps of errors in log like:
+[19319:19319:0906/083629.005551:ERROR:command_buffer_proxy_impl.cc(101)] ContextResult::kFatalFailure: AllocateAndMapSharedMemory failed
+[19319:19319:0906/083629.005650:ERROR:broker_posix.cc(46)] Received unexpected number of handles

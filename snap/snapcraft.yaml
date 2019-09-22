@@ -52,6 +52,7 @@ parts:
       - libqt5help5
       - libqt5webkit5
       - libxt6
+      - qtwayland5
 
   wrapper:
     plugin: dump

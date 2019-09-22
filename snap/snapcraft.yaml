@@ -33,6 +33,7 @@ parts:
       - libgdk-pixbuf2.0-0
       - libqt5svg5
       - locales-all
+      - qtwayland5
   mitk:
     # See 'snapcraft plugins'
     source: http://www.mitk.org/download/releases/MITK-2015.05/Linux/MITK-2015.5.0-linux64.tar.gz
@@ -74,5 +75,6 @@ apps:
       - optical-drive
       - removable-media
       - x11
+      - wayland
       - desktop
       - desktop-legacy
